@@ -1,0 +1,53 @@
+.root{
+	-fx-background-color: white;
+	-fx-font-family: "Courier New";
+	-fx-font-size: 11pt;
+}
+
+Button:hover{
+	-fx-effect: dropshadow(two-pass-box,yellow,3,0,2,2);
+}
+
+#anyoLabel{
+	-fx-font-family: "Arial";
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+	-fx-font-size: 22pt;
+	-fx-effect: dropshadow(two-pass-box,black,3,0,2,2);
+}
+
+#monthNameLabel{
+	-fx-font-weight: bold;
+	-fx-font-size: 13pt;
+}  
+
+.diasSemana{
+	-fx-font-weight: bold;
+}
+
+.dias{
+	-fx-font-style: oblique;
+	-fx-text-fill: blue;
+}
+
+.domingo{
+	-fx-text-fill: red;
+}
+
+.diaActual{
+	-fx-background-color: linear-gradient(to bottom, white, orange); 
+	-fx-background-radius: 10px;
+	-fx-border-radius: 10px;
+	-fx-border-style: dashed;
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+}
+
+.diaActual2{
+	-fx-background-color: linear-gradient(to bottom, white, blue); 
+	-fx-background-radius: 10px;
+	-fx-border-radius: 10px;
+	-fx-border-style: dashed;
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cv>
+    <contacto>
+        <emails>
+            <direccion>killianpro@gmail.com</direccion>
+        </emails>
+        <emails>
+            <direccion>killianpro@hotmail.com</direccion>
+        </emails>
+        <telefonos tipo="MOVIL">
+            <numero>639004914</numero>
+        </telefonos>
+        <webs>
+            <url>killiandsw.esy.es</url>
+        </webs>
+    </contacto>
+    <experiencias>
+        <denominacion>Desarrollador Web</denominacion>
+        <desde>2016-03-28</desde>
+        <empleador>Axedra</empleador>
+        <hasta>2016-06-03</hasta>
+    </experiencias>
+    <experiencias>
+        <denominacion>Desarrollador Web</denominacion>
+        <desde>2016-07-01</desde>
+        <empleador>Spalopia</empleador>
+        <hasta>2016-08-01</hasta>
+    </experiencias>
+    <formacion>
+        <denominacion>Desarrollo Web</denominacion>
+        <desde>2013-05-08</desde>
+        <hasta>2014-11-20</hasta>
+        <organizador>Cesar Manrique</organizador>
+    </formacion>
+    <habilidades nivel="AVANZADO">
+        <denominacion>Javascript</denominacion>
+    </habilidades>
+    <habilidades nivel="MEDIO">
+        <denominacion>HTML</denominacion>
+    </habilidades>
+    <habilidades nivel="AVANZADO">
+        <denominacion>CSS</denominacion>
+    </habilidades>
+    <habilidades nivel="MEDIO">
+        <denominacion>php</denominacion>
+    </habilidades>
+    <habilidades nivel="MEDIO">
+        <denominacion>java</denominacion>
+    </habilidades>
+    <habilidades xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="idioma" nivel="MEDIO">
+        <denominacion>Ingles</denominacion>
+        <certificacion>Bachillerato</certificacion>
+    </habilidades>
+    <personal identificacion="45980224G">
+        <apellidos>Ramos Deniz</apellidos>
+        <codigoPostal>38009</codigoPostal>
+        <direccion>Hernesto Anastasio</direccion>
+        <fechaNacimiento>1994-05-24</fechaNacimiento>
+        <localidad>Santa Cruz</localidad>
+        <nacionalidades denominacion="español"/>
+        <nombre>Killian</nombre>
+        <pais>España</pais>
+    </personal>
+</cv>

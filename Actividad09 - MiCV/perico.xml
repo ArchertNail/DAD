@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cv>
+    <contacto>
+        <emails>
+            <direccion>dadadasda</direccion>
+        </emails>
+        <telefonos tipo="DOMICILIO">
+            <numero>324324234</numero>
+        </telefonos>
+        <webs>
+            <url>url</url>
+        </webs>
+    </contacto>
+    <habilidades xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="idioma" nivel="MEDIO">
+        <denominacion>Ingles</denominacion>
+        <certificacion>C1</certificacion>
+    </habilidades>
+    <personal identificacion="killian">
+        <apellidos>deniz</apellidos>
+        <codigoPostal>282312</codigoPostal>
+        <direccion>callee</direccion>
+        <fechaNacimiento>2016-12-15</fechaNacimiento>
+        <localidad>Sant cruz</localidad>
+        <nacionalidades denominacion="beliceño"/>
+        <nombre>perico</nombre>
+        <pais>Bulgaria</pais>
+    </personal>
+</cv>
