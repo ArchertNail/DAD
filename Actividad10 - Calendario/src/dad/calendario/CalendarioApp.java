@@ -11,7 +11,6 @@ public class CalendarioApp extends Application {
 	
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		
 		calendario = new Calendario();
 		
 		calendarioController = new CalendarioController(this);
