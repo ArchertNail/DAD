@@ -100,19 +100,31 @@ public class MesController extends GridPane{
 		}
 		for (int i = first, j = 1; i < first + last; i++, j++) {
 			diasLabel.get(i).setText("" + j);
+			
+			LocalDate actual=LocalDate.of(year.get(), month.get(), j);
+		      
+		    if (actual.equals(LocalDate.now())) {
+		       diasLabel.get(i).getStyleClass().add("diaActual");
+		    }else {
+		       diasLabel.get(i).getStyleClass().remove("diaActual");
+		    }
 		}
 		for (int i = first + last; i < diasLabel.size(); i++) {
 			diasLabel.get(i).setText("");
+			
+			
+			
 		}
 		Date day = DateUtils.day(year.get(), month.get(), 1);
 		monthNameLabel.setText(FORMATTER.format(day));
+	
 		
-		if(month.get()==LocalDate.now().getMonthValue() && year.get() == LocalDate.now().getYear()){
-			diasLabel.get(LocalDate.now().getDayOfMonth()+first-1).getStyleClass().add("diaActual");
-		}
-		else{
-			diasLabel.get(LocalDate.now().getDayOfMonth()+2).getStyleClass().remove("diaActual");
-		}
+//		if(month.get()==LocalDate.now().getMonthValue() && year.get() == LocalDate.now().getYear()){
+//			diasLabel.get(LocalDate.now().getDayOfMonth()+first-1).getStyleClass().add("diaActual");
+//		}
+//		else{
+//			diasLabel.get(LocalDate.now().getDayOfMonth()+2).getStyleClass().remove("diaActual");
+//		}
 	
 			
 		
